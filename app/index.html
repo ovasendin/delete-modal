@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <meta name="description" content="Description" />
+    <base href="[[!++site_url]]" />
+    <meta charset="[[++modx_charset]]" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=PT+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--css-->
+    <link rel="stylesheet" href="files/css/style.min.css" />
+  </head>
+  <body>
+    <div class="overlay active"></div>
+    <div class="page">
+      <!-- MODAL -->
+      <section class="modal active">
+        <div class="modal__wrapper">
+          <div class="modal__scroll">
+            <header class="modal__header">
+              <!-- logo -->
+              <div class="modal__logo">
+                <svg class="modal__logo-image" role="img" title="Logo">
+                  <use xlink:href="files/images/sprite.svg#logo"></use>
+                </svg>
+                <span class="modal__logo-desc">Header</span>
+              </div>
+
+              <!-- close -->
+              <button class="modal__close">
+                <svg class="svg-close" role="img" title="Close">
+                  <use xlink:href="files/images/sprite.svg#close"></use>
+                </svg>
+              </button>
+            </header>
+
+            <!-- content -->
+            <div class="modal__content">
+              <div class="modal__message">
+                <span>Content here</span>
+              </div>
+            </div>
+          </div>
+          <!-- modal__scroll -->
+        </div>
+      </section>
+    </div>
+    <!-- /page -->
+
+    <!--  -->
+    <!-- LINKS -->
+    <script src="files/js/main.min.js"></script>
+  </body>
+</html>
